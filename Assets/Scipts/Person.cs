@@ -152,7 +152,7 @@ public class Person
 			Dictionary<string, object> dictemp = _sentenceStack.Peek();
 			if(dictemp.ContainsKey(key))
 			{
-				Debug.Log(dictemp[key].GetType().ToString());
+				//..Debug.Log(dictemp[key].GetType().ToString());
 				object newfragment = dictemp[key];
 				if(newfragment is System.String)
 				{
@@ -165,7 +165,8 @@ public class Person
 					_sentenceStack.Push((Dictionary<string, object>)dictemp[key]);
 
 				_fragmentNum += 1.0f;
-				_finalSentence.Replace("#","");
+				_finalSentence = _finalSentence.Replace("#","");
+				_finalSentence += " ";
 				_finalSentence += key;
 				return true;
 			}

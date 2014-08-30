@@ -7,9 +7,9 @@ public class PlistTest : MonoBehaviour {
 
 	Girl girl;
 	Boy boy;
-	List<string> fragments = new List<string>();
-	System.Random girlRandom;
-	System.Random boyRandom;
+	System.Random personRandom;
+	bool girlTurn = true;
+	int times = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -21,38 +21,64 @@ public class PlistTest : MonoBehaviour {
 		girl = new Girl (dic);
 		boy = new Boy (dic);
 
-		girlRandom = new System.Random ((int)System.DateTime.UtcNow.Ticks);
-		PickFragment (-1, null);
+		personRandom = new System.Random ((int)System.DateTime.UtcNow.Ticks);
+
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (times > 4)
+			return;
+
+		if (girlTurn) {
+			PickFragment (girl, -1, null);
+			if(girl.IsCompleteSentence())
+			{
+
+				Debug.Log("Girl damage:"+girl.Damage);
+				girl.SpeakTo(boy);
+				Debug.Log("Boy motion:"+boy.PositiveMotionPercent);
+
+			}
+
+		} else {
+			PickFragment(boy, -1, null);
+			if(boy.IsCompleteSentence())
+			{
+				Debug.Log("Boy damage:"+boy.Damage);
+				boy.SpeakTo(girl);
+				Debug.Log("Girl motion:"+girl.NegativeMotionPercent);
+			}
+		}
 		
+		girlTurn = !girlTurn;
+		times++;
 	}
 
-	void PickFragment(int index, List<string> fragments)
+	void PickFragment(Person persion, int index, List<string> fragments)
 	{
 		if (index >= 0) {
-			girl.SelectFragment (fragments [index]);
-			Debug.Log ("Damage" + girl.Damage);
+			persion.SelectFragment (fragments [index]);
+			//..Debug.Log ("Damage" + persion.Damage);
 		}
 
-		List<string> nextfragments = girl.GetNextFragment ();
+		List<string> nextfragments = persion.GetNextFragment ();
 		foreach (string key in nextfragments) {
-			Debug.Log(key);		
+			//..Debug.Log(key);		
 		}
 
 
 		if (nextfragments.Count > 0) 
 		{
 			//select next
-			int newindex = girlRandom.Next(0, nextfragments.Count);
-			PickFragment (newindex, nextfragments);
+			int newindex = personRandom.Next(0, nextfragments.Count);
+			PickFragment (persion, newindex, nextfragments);
 				
 		} else {
-			Debug.Log ("Sentence finished");
-			Debug.Log(girl.Sentence);
+			//..Debug.Log ("Sentence finished");
+			Debug.Log(persion.Sentence);
 		}
 	}
 }
