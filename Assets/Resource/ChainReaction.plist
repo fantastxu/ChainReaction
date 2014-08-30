@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Boy</key>
+	<dict/>
+	<key>Girl</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>property</key>
+			<dict>
+				<key>damage</key>
+				<integer>10</integer>
+				<key>hideBoy</key>
+				<integer>2</integer>
+				<key>percent</key>
+				<integer>80</integer>
+				<key>triggerBoy</key>
+				<integer>1</integer>
+			</dict>
+			<key>你讨厌</key>
+			<dict>
+				<key>死了</key>
+				<dict>
+					<key>，不理你。</key>
+					<dict/>
+				</dict>
+			</dict>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>property</key>
+			<dict>
+				<key>damage</key>
+				<integer>10</integer>
+				<key>hideBoy</key>
+				<integer>2</integer>
+				<key>percent</key>
+				<integer>80</integer>
+				<key>triggerBoy</key>
+				<integer>1</integer>
+			</dict>
+			<key>你花心</key>
+			<dict>
+				<key>，外面有花头</key>
+				<dict>
+					<key>，给我去死。</key>
+					<dict/>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
