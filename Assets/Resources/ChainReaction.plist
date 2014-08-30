@@ -1,457 +1,917 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Boy</key>
-	<dict>
-		<key>Apologize</key>
-		<dict>
-			<key>Be</key>
-			<dict>
-				<key>Patient#</key>
-				<string></string>
-				<key>Reasonable#</key>
-				<dict>
-					<key>Please#</key>
-					<string></string>
-				</dict>
-			</dict>
-			<key>Do</key>
-			<dict>
-				<key>Not</key>
-				<dict>
-					<key>Get me wrong#</key>
-					<string></string>
-				</dict>
-			</dict>
-			<key>I</key>
-			<dict>
-				<key>Am</key>
-				<dict>
-					<key>Regretful#</key>
-					<dict>
-						<key>About</key>
-						<dict>
-							<key>What I've done#</key>
-							<string></string>
-							<key>What happened#</key>
-							<string></string>
-							<key>What makes you feel#</key>
-							<string></string>
-						</dict>
-						<key>That</key>
-						<dict>
-							<key>Key 1</key>
-							<string></string>
-						</dict>
-					</dict>
-					<key>Sorry#</key>
-					<dict>
-						<key>About</key>
-						<dict>
-							<key>What I've done#</key>
-							<string></string>
-							<key>What happened#</key>
-							<string></string>
-							<key>What makes you feel#</key>
-							<string></string>
-						</dict>
-						<key>That</key>
-						<dict>
-							<key>Key 1</key>
-							<string></string>
-						</dict>
-					</dict>
-				</dict>
-				<key>Do</key>
-				<dict>
-					<key>Feel</key>
-					<dict>
-						<key>Guilty#</key>
-						<dict>
-							<key>About</key>
-							<dict>
-								<key>What I've done#</key>
-								<string></string>
-								<key>What happened#</key>
-								<string></string>
-								<key>What makes you feel#</key>
-								<string></string>
-							</dict>
-							<key>That</key>
-							<dict>
-								<key>Key 1</key>
-								<string></string>
-							</dict>
-						</dict>
-						<key>Regretful#</key>
-						<dict>
-							<key>About</key>
-							<dict>
-								<key>What I've done#</key>
-								<string></string>
-								<key>What happened#</key>
-								<string></string>
-								<key>What makes you feel#</key>
-								<string></string>
-							</dict>
-							<key>That</key>
-							<dict>
-								<key>Key 1</key>
-								<string></string>
-							</dict>
-						</dict>
-						<key>Sorry#</key>
-						<dict>
-							<key>About</key>
-							<dict>
-								<key>What I've done#</key>
-								<string></string>
-								<key>What happened#</key>
-								<string></string>
-								<key>What makes you feel#</key>
-								<string></string>
-							</dict>
-							<key>That</key>
-							<dict>
-								<key>Key 1</key>
-								<string></string>
-							</dict>
-						</dict>
-						<key>Terrible#</key>
-						<dict>
-							<key>About</key>
-							<dict>
-								<key>What I've done#</key>
-								<string></string>
-								<key>What happened#</key>
-								<string></string>
-								<key>What makes you feel#</key>
-								<string></string>
-							</dict>
-							<key>That</key>
-							<dict>
-								<key>Key 1</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Not</key>
-					<dict>
-						<key>Mean</key>
-						<dict>
-							<key>It#</key>
-							<string></string>
-							<key>To</key>
-							<dict>
-								<key>Break your heart#</key>
-								<string></string>
-								<key>Harm you#</key>
-								<string></string>
-								<key>Hurt you#</key>
-								<string></string>
-								<key>Hurt your feeling#</key>
-								<string></string>
-								<key>Make you feel in that way#</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
-				<key>Think</key>
-				<dict>
-					<key>That</key>
-					<dict>
-						<key>You</key>
-						<dict>
-							<key>Got me wrong</key>
-							<string></string>
-							<key>Mistaken my meaning</key>
-							<string></string>
-							<key>Misundersood me</key>
-							<string></string>
-						</dict>
-					</dict>
-				</dict>
-			</dict>
-			<key>That</key>
-			<dict>
-				<key>Is</key>
-				<dict>
-					<key>Not</key>
-					<dict>
-						<key>True#</key>
-						<dict>
-							<key>At all#</key>
-							<string></string>
-						</dict>
-						<key>What I mean#</key>
-						<dict>
-							<key>At all#</key>
-							<string></string>
-						</dict>
-					</dict>
-				</dict>
-			</dict>
-			<key>You</key>
-			<dict>
-				<key>Got me wrong#</key>
-				<string></string>
-				<key>Have got no idea#</key>
-				<dict>
-					<key>About</key>
-					<dict>
-						<key>How</key>
-						<dict>
-							<key>Important</key>
-							<dict>
-								<key>This relationship</key>
-								<dict>
-									<key>Is#</key>
-									<string></string>
-									<key>Means to me#</key>
-									<string></string>
-								</dict>
-								<key>You</key>
-								<dict>
-									<key>Are#</key>
-									<string></string>
-									<key>Mean to me#</key>
-									<string></string>
-								</dict>
-							</dict>
-							<key>Much</key>
-							<dict>
-								<key>I cherish you#</key>
-								<string></string>
-								<key>I love you#</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
-				<key>Mistaken my meaning#</key>
-				<string></string>
-				<key>Misundersood me#</key>
-				<string></string>
-			</dict>
-		</dict>
-		<key>Positive feelings about the girl and the relationship</key>
-		<dict>
-			<key>Darling#</key>
-			<dict>
-				<key>You</key>
-				<dict>
-					<key>Are</key>
-					<dict>
-						<key>Adorable#</key>
-						<string></string>
-						<key>Beautiful#</key>
-						<string></string>
-						<key>Clever#</key>
-						<string></string>
-						<key>Cute#</key>
-						<string></string>
-						<key>Lovely#</key>
-						<string></string>
-						<key>Pretty#</key>
-						<string></string>
-						<key>Smart#</key>
-						<string></string>
-					</dict>
-				</dict>
-			</dict>
-			<key>Honey</key>
-			<string></string>
-			<key>My love</key>
-			<string></string>
-			<key>Sweetie</key>
-			<string></string>
-		</dict>
-	</dict>
-	<key>Girl</key>
-	<dict>
-		<key>1</key>
-		<dict>
-			<key>60:15</key>
-			<dict>
-				<key>You</key>
-				<dict>
-					<key>Certainly</key>
-					<dict/>
-					<key>Do</key>
-					<dict>
-						<key>Cheat me</key>
-						<string></string>
-						<key>Deceive me</key>
-						<string></string>
-						<key>Hurt</key>
-						<dict>
-							<key>Me</key>
-							<dict>
-								<key>By</key>
-								<dict/>
-							</dict>
-							<key>My feeling</key>
-							<string></string>
-						</dict>
-						<key>Make me feel</key>
-						<dict>
-							<key>Like</key>
-							<dict>
-								<key>An idiot</key>
-								<string></string>
-							</dict>
-							<key>Sad</key>
-							<string></string>
-						</dict>
-					</dict>
-					<key>Really</key>
-					<dict/>
-				</dict>
-			</dict>
-			<key>80:10</key>
-			<dict>
-				<key>I</key>
-				<dict>
-					<key>Am</key>
-					<dict>
-						<key>Angry</key>
-						<dict/>
-						<key>Lonely</key>
-						<dict/>
-						<key>Sad#</key>
-						<dict>
-							<key>Because</key>
-							<dict/>
-							<key>Since</key>
-							<dict/>
-							<key>That</key>
-							<dict/>
-						</dict>
-						<key>Scared</key>
-						<dict/>
-						<key>Upset</key>
-						<dict/>
-					</dict>
-					<key>Am afraid</key>
-					<dict>
-						<key>That</key>
-						<dict>
-							<key>I</key>
-							<dict>
-								<key>Have to</key>
-								<dict>
-									<key>Be alone</key>
-									<string></string>
-									<key>Leave you</key>
-									<string></string>
-								</dict>
-								<key>Must</key>
-								<dict>
-									<key>Be alone</key>
-									<string></string>
-									<key>Leave you</key>
-									<string></string>
-								</dict>
-							</dict>
-							<key>Love is not enough</key>
-							<string></string>
-							<key>Our relationship is broken</key>
-							<string></string>
-							<key>Things won't work out</key>
-							<string></string>
-							<key>You</key>
-							<dict>
-								<key>Broke my heart</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Am not sure</key>
-					<dict>
-						<key>About</key>
-						<dict>
-							<key>Your feeling</key>
-							<string></string>
-						</dict>
-						<key>Whether</key>
-						<dict>
-							<key>You</key>
-							<dict>
-								<key>Love me or not</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Can</key>
-					<dict>
-						<key>Not</key>
-						<dict>
-							<key>Stand you</key>
-							<dict>
-								<key>Any more</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Do</key>
-					<dict>
-						<key>Hate</key>
-						<dict>
-							<key>You</key>
-							<string></string>
-						</dict>
-					</dict>
-					<key>Feel</key>
-					<dict>
-						<key>Terrible</key>
-						<dict/>
-						<key>Unrespectable</key>
-						<dict/>
-					</dict>
-					<key>Will</key>
-					<dict>
-						<key>Leave you</key>
-						<string></string>
-						<key>Never</key>
-						<dict>
-							<key>Forgive</key>
-							<dict>
-								<key>That</key>
-								<dict/>
-								<key>You</key>
-								<string></string>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
-			</dict>
-			<key>trigger</key>
-			<array/>
-		</dict>
-		<key>2</key>
-		<dict>
-			<key>property</key>
-			<dict>
-				<key>damage</key>
-				<integer>10</integer>
-				<key>hideBoy</key>
-				<integer>2</integer>
-				<key>percent</key>
-				<integer>80</integer>
-				<key>triggerBoy</key>
-				<integer>1</integer>
-			</dict>
-			<key>你花心</key>
-			<dict>
-				<key>，外面有花头</key>
-				<dict>
-					<key>，给我去死。</key>
-					<dict/>
-				</dict>
-			</dict>
-		</dict>
-	</dict>
-</dict>
+    <dict>
+        <key>Boy</key>
+        <dict>
+            <key>Apologize</key>
+            <dict>
+                <key>You</key>
+                <dict>
+                    <key>Got me wrong#</key>
+                    <string></string>
+                    <key>Mistaken my meaning#</key>
+                    <string></string>
+                    <key>Misundersood me#</key>
+                    <string></string>
+                    <key>Have got no idea#</key>
+                    <dict>
+                        <key>About</key>
+                        <dict>
+                            <key>How</key>
+                            <dict>
+                                <key>Important</key>
+                                <dict>
+                                    <key>You</key>
+                                    <dict>
+                                        <key>Are#</key>
+                                        <string></string>
+                                        <key>Mean to me#</key>
+                                        <string></string>
+                                    </dict>
+                                    <key>This relationship</key>
+                                    <dict>
+                                        <key>Is#</key>
+                                        <string></string>
+                                        <key>Means to me#</key>
+                                        <string></string>
+                                    </dict>
+                                </dict>
+                                <key>Much</key>
+                                <dict>
+                                    <key>I love you#</key>
+                                    <string></string>
+                                    <key>I cherish you#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>I</key>
+                <dict>
+                    <key>Do</key>
+                    <dict>
+                        <key>Not</key>
+                        <dict>
+                            <key>Mean</key>
+                            <dict>
+                                <key>It#</key>
+                                <string></string>
+                                <key>To</key>
+                                <dict>
+                                    <key>Hurt you#</key>
+                                    <string></string>
+                                    <key>Harm you#</key>
+                                    <string></string>
+                                    <key>Make you feel in that way#</key>
+                                    <string></string>
+                                    <key>Break your heart#</key>
+                                    <string></string>
+                                    <key>Hurt your feeling#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                        <key>Feel</key>
+                        <dict>
+                            <key>Sorry#</key>
+                            <dict>
+                                <key>That</key>
+                                <dict>
+                                    <key>Key 1</key>
+                                    <string></string>
+                                </dict>
+                                <key>About</key>
+                                <dict>
+                                    <key>What happened#</key>
+                                    <string></string>
+                                    <key>What I've done#</key>
+                                    <string></string>
+                                    <key>What makes you feel#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Terrible#</key>
+                            <dict>
+                                <key>That</key>
+                                <dict>
+                                    <key>Key 1</key>
+                                    <string></string>
+                                </dict>
+                                <key>About</key>
+                                <dict>
+                                    <key>What happened#</key>
+                                    <string></string>
+                                    <key>What I've done#</key>
+                                    <string></string>
+                                    <key>What makes you feel#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Guilty#</key>
+                            <dict>
+                                <key>That</key>
+                                <dict>
+                                    <key>Key 1</key>
+                                    <string></string>
+                                </dict>
+                                <key>About</key>
+                                <dict>
+                                    <key>What happened#</key>
+                                    <string></string>
+                                    <key>What I've done#</key>
+                                    <string></string>
+                                    <key>What makes you feel#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Regretful#</key>
+                            <dict>
+                                <key>That</key>
+                                <dict>
+                                    <key>Key 1</key>
+                                    <string></string>
+                                </dict>
+                                <key>About</key>
+                                <dict>
+                                    <key>What happened#</key>
+                                    <string></string>
+                                    <key>What I've done#</key>
+                                    <string></string>
+                                    <key>What makes you feel#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                    </dict>
+                    <key>Am</key>
+                    <dict>
+                        <key>Regretful#</key>
+                        <dict>
+                            <key>That</key>
+                            <dict>
+                                <key>Key 1</key>
+                                <string></string>
+                            </dict>
+                            <key>About</key>
+                            <dict>
+                                <key>What happened#</key>
+                                <string></string>
+                                <key>What I've done#</key>
+                                <string></string>
+                                <key>What makes you feel#</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                        <key>Sorry#</key>
+                        <dict>
+                            <key>That</key>
+                            <dict>
+                                <key>Key 1</key>
+                                <string></string>
+                            </dict>
+                            <key>About</key>
+                            <dict>
+                                <key>What happened#</key>
+                                <string></string>
+                                <key>What I've done#</key>
+                                <string></string>
+                                <key>What makes you feel#</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                    </dict>
+                    <key>Think</key>
+                    <dict>
+                        <key>That</key>
+                        <dict>
+                            <key>You</key>
+                            <dict>
+                                <key>Got me wrong</key>
+                                <string></string>
+                                <key>Mistaken my meaning</key>
+                                <string></string>
+                                <key>Misundersood me</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>That</key>
+                <dict>
+                    <key>Is</key>
+                    <dict/>
+                    <key>Actually</key>
+                    <dict>
+                        <key>Not</key>
+                        <dict>
+                            <key>My fault#</key>
+                            <dict>
+                                <key>To be late for the appointment#</key>
+                                <string></string>
+                                <key>To forget the special day#</key>
+                                <string></string>
+                            </dict>
+                            <key>What I mean#</key>
+                            <dict>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                            <key>True#</key>
+                            <dict>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                            <key>An excuse#</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>It</key>
+                <dict>
+                    <key>Is</key>
+                    <dict/>
+                    <key>Actually</key>
+                    <dict>
+                        <key>Not</key>
+                        <dict>
+                            <key>My fault#</key>
+                            <dict>
+                                <key>To be late for the appointment#</key>
+                                <string></string>
+                                <key>To forget the special day#</key>
+                                <string></string>
+                            </dict>
+                            <key>What I mean#</key>
+                            <dict>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                            <key>True#</key>
+                            <dict>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                            <key>An excuse#</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>Do</key>
+                <dict>
+                    <key>Not</key>
+                    <dict>
+                        <key>Get me wrong#</key>
+                        <string></string>
+                    </dict>
+                </dict>
+                <key>Be</key>
+                <dict>
+                    <key>Reasonable#</key>
+                    <dict>
+                        <key>Please#</key>
+                        <string></string>
+                    </dict>
+                    <key>Patient#</key>
+                    <string></string>
+                </dict>
+                <key>80:10</key>
+                <dict/>
+                <key>60:5</key>
+                <string></string>
+                <key>Trigger</key>
+                <dict>
+                    <key>Negative Feelings</key>
+                    <string></string>
+                </dict>
+            </dict>
+            <key>Positive feelings about the girl and the relationship</key>
+            <dict>
+                <key>Trigger</key>
+                <string></string>
+                <key>Darling#</key>
+                <dict>
+                    <key>You</key>
+                    <dict>
+                        <key>Are</key>
+                        <dict>
+                            <key>Cute#</key>
+                            <string></string>
+                            <key>Adorable#</key>
+                            <string></string>
+                            <key>Beautiful#</key>
+                            <string></string>
+                            <key>Pretty#</key>
+                            <string></string>
+                            <key>Lovely#</key>
+                            <string></string>
+                            <key>Smart#</key>
+                            <string></string>
+                            <key>Clever#</key>
+                            <string></string>
+                            <key>Important to me#</key>
+                            <string></string>
+                            <key>My apple in the eyes#</key>
+                            <string></string>
+                        </dict>
+                        <key>Make me feel</key>
+                        <dict>
+                            <key>Happy#</key>
+                            <string></string>
+                            <key>Confident#</key>
+                            <string></string>
+                            <key>Satisfied#</key>
+                            <string></string>
+                            <key>Over the moon#</key>
+                            <string></string>
+                        </dict>
+                        <key>Pull my heartstrings#</key>
+                        <string></string>
+                    </dict>
+                    <key>I</key>
+                    <dict>
+                        <key>Am</key>
+                        <dict>
+                            <key>Obsessed with you#</key>
+                            <string></string>
+                            <key>Crazy about you#</key>
+                            <string></string>
+                            <key>Faithful#</key>
+                            <string></string>
+                        </dict>
+                        <key>Fall in love with you#</key>
+                        <dict>
+                            <key>At first sight#</key>
+                            <string></string>
+                        </dict>
+                        <key>Definitely</key>
+                        <dict>
+                            <key>Can</key>
+                            <dict>
+                                <key>Not</key>
+                                <dict>
+                                    <key>Live</key>
+                                    <dict>
+                                        <key>Without you#</key>
+                                        <string></string>
+                                    </dict>
+                                    <key>Be</key>
+                                    <dict>
+                                        <key>Without you#</key>
+                                        <string></string>
+                                    </dict>
+                                </dict>
+                            </dict>
+                            <key>Must</key>
+                            <dict>
+                                <key>Be</key>
+                                <dict>
+                                    <key>With you#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                        <key>Love you#</key>
+                        <string></string>
+                        <key>Like you#</key>
+                        <string></string>
+                    </dict>
+                    <key>We</key>
+                    <dict>
+                        <key>Are</key>
+                        <dict>
+                            <key>Unseperatable#</key>
+                            <string></string>
+                            <key>In the same boat#</key>
+                            <string></string>
+                            <key>Born of a couple#</key>
+                            <string></string>
+                            <key>Doomed#</key>
+                            <string></string>
+                        </dict>
+                        <key>Must</key>
+                        <dict>
+                            <key>Be</key>
+                            <dict>
+                                <key>Togetother#</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                        <key>Could</key>
+                        <dict>
+                            <key>Solve the problem#</key>
+                            <dict>
+                                <key>Together#</key>
+                                <dict/>
+                                <key>By</key>
+                                <dict>
+                                    <key>Communication#</key>
+                                    <string></string>
+                                    <key>Marriage#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>Sweetie</key>
+                <string></string>
+                <key>Honey</key>
+                <string></string>
+                <key>My love</key>
+                <string></string>
+            </dict>
+            <key>Commitment</key>
+            <dict>
+                <key>I</key>
+                <dict>
+                    <key>Definately</key>
+                    <dict>
+                        <key>Will</key>
+                        <dict>
+                            <key>Not</key>
+                            <dict>
+                                <key>Leave you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <dict/>
+                                    <key>Any longer#</key>
+                                    <dict/>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Hate you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <string></string>
+                                    <key>Any longer#</key>
+                                    <string></string>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Harm you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <string></string>
+                                    <key>Any longer#</key>
+                                    <string></string>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Be bad to you#</key>
+                                <string></string>
+                                <key>Shout at you#</key>
+                                <string></string>
+                            </dict>
+                            <key>Never</key>
+                            <dict>
+                                <key>Leave you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <dict/>
+                                    <key>Any longer#</key>
+                                    <dict/>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Hate you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <string></string>
+                                    <key>Any longer#</key>
+                                    <string></string>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Harm you#</key>
+                                <dict>
+                                    <key>Any more#</key>
+                                    <string></string>
+                                    <key>Any longer#</key>
+                                    <string></string>
+                                    <key>At all#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Be bad to you#</key>
+                                <string></string>
+                                <key>Shout at you#</key>
+                                <string></string>
+                            </dict>
+                            <key>Be</key>
+                            <dict>
+                                <key>There#</key>
+                                <string></string>
+                                <key>On your side#</key>
+                                <string></string>
+                                <key>Falling in love with you#</key>
+                                <string></string>
+                                <key>Good to you#</key>
+                                <string></string>
+                                <key>Happy for you#</key>
+                                <string></string>
+                                <key>Your partner#</key>
+                                <string></string>
+                            </dict>
+                            <key>Always</key>
+                            <dict>
+                                <key>Love you#</key>
+                                <string></string>
+                                <key>Be</key>
+                                <dict>
+                                    <key>There#</key>
+                                    <string></string>
+                                    <key>On your side#</key>
+                                    <string></string>
+                                    <key>Falling in love with you#</key>
+                                    <string></string>
+                                    <key>Good to you#</key>
+                                    <string></string>
+                                    <key>Happy for you#</key>
+                                    <string></string>
+                                    <key>Your partner#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Cherish you#</key>
+                                <string></string>
+                                <key>See you as#</key>
+                                <dict>
+                                    <key>My love#</key>
+                                    <string></string>
+                                    <key>The only one#</key>
+                                    <string></string>
+                                    <key>Somebody special to me#</key>
+                                    <string></string>
+                                    <key>My baby#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Still</key>
+                            <dict>
+                                <key>Love you#</key>
+                                <string></string>
+                                <key>Be</key>
+                                <dict>
+                                    <key>There#</key>
+                                    <string></string>
+                                    <key>On your side#</key>
+                                    <string></string>
+                                    <key>Falling in love with you#</key>
+                                    <string></string>
+                                    <key>Good to you#</key>
+                                    <string></string>
+                                    <key>Happy for you#</key>
+                                    <string></string>
+                                    <key>Your partner#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Forever</key>
+                            <dict>
+                                <key>Love you#</key>
+                                <string></string>
+                                <key>Be</key>
+                                <dict>
+                                    <key>There#</key>
+                                    <string></string>
+                                    <key>On your side#</key>
+                                    <string></string>
+                                    <key>Falling in love with you#</key>
+                                    <string></string>
+                                    <key>Good to you#</key>
+                                    <string></string>
+                                    <key>Happy for you#</key>
+                                    <string></string>
+                                    <key>Your partner#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>Love you#</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                </dict>
+            </dict>
+            <key>Strong Feelings</key>
+            <dict>
+                <key>Kiss you</key>
+                <string></string>
+                <key>Hug me</key>
+                <string></string>
+                <key>Marry me</key>
+                <string></string>
+            </dict>
+            <key>Ask forgiveness</key>
+            <dict>
+                <key>Please#</key>
+                <dict>
+                    <key>Forgive me#</key>
+                    <string></string>
+                    <key>Accept my apologize#</key>
+                    <string></string>
+                </dict>
+                <key>Would you#</key>
+                <dict/>
+                <key>Are we good#</key>
+                <string></string>
+                <key>I</key>
+                <dict>
+                    <key>Beg your forgiveness#</key>
+                    <string></string>
+                    <key>Sincerely</key>
+                    <dict>
+                        <key>Hope</key>
+                        <dict>
+                            <key>You</key>
+                            <dict>
+                                <key>Can</key>
+                                <dict>
+                                    <key>Forgive me#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                        </dict>
+                        <key>Beg your forgiveness#</key>
+                        <string></string>
+                    </dict>
+                </dict>
+            </dict>
+        </dict>
+        <key>Girl</key>
+        <dict>
+            <key>Negative Feelings</key>
+            <dict>
+                <key>I</key>
+                <dict>
+                    <key>Am</key>
+                    <dict>
+                        <key>Sad#</key>
+                        <dict>
+                            <key>Because</key>
+                            <dict/>
+                            <key>Since</key>
+                            <dict/>
+                            <key>That</key>
+                            <dict/>
+                        </dict>
+                        <key>Scared#</key>
+                        <dict/>
+                        <key>Upset#</key>
+                        <dict/>
+                        <key>Angry#</key>
+                        <dict/>
+                        <key>Lonely#</key>
+                        <dict/>
+                        <key>Fed up#</key>
+                        <string></string>
+                    </dict>
+                    <key>Feel</key>
+                    <dict>
+                        <key>Terrible#</key>
+                        <dict/>
+                        <key>Unrespectable#</key>
+                        <dict/>
+                    </dict>
+                    <key>Am afraid</key>
+                    <dict>
+                        <key>That</key>
+                        <dict>
+                            <key>Things won't work out#</key>
+                            <string></string>
+                            <key>I</key>
+                            <dict>
+                                <key>Must</key>
+                                <dict>
+                                    <key>Be alone#</key>
+                                    <string></string>
+                                    <key>Leave you#</key>
+                                    <string></string>
+                                </dict>
+                                <key>Have to</key>
+                                <dict>
+                                    <key>Be alone#</key>
+                                    <string></string>
+                                    <key>Leave you#</key>
+                                    <string></string>
+                                </dict>
+                            </dict>
+                            <key>You</key>
+                            <dict>
+                                <key>Broke my heart#</key>
+                                <string></string>
+                            </dict>
+                            <key>Love is not enough#</key>
+                            <string></string>
+                            <key>Our relationship is broken#</key>
+                            <string></string>
+                            <key>Problems won't be solved#</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                    <key>Will</key>
+                    <dict>
+                        <key>Never</key>
+                        <dict>
+                            <key>Forgive</key>
+                            <dict>
+                                <key>You#</key>
+                                <string></string>
+                                <key>That</key>
+                                <dict/>
+                            </dict>
+                        </dict>
+                        <key>Leave you#</key>
+                        <string></string>
+                    </dict>
+                    <key>Am not sure</key>
+                    <dict>
+                        <key>About</key>
+                        <dict>
+                            <key>Your feeling#</key>
+                            <string></string>
+                            <key>How you see</key>
+                            <dict>
+                                <key>This relationship#</key>
+                                <string></string>
+                                <key>Me#</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                        <key>Whether</key>
+                        <dict>
+                            <key>You</key>
+                            <dict>
+                                <key>Love me or not</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                    </dict>
+                    <key>Do</key>
+                    <dict>
+                        <key>Hate</key>
+                        <dict>
+                            <key>You</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                    <key>Can</key>
+                    <dict>
+                        <key>Not</key>
+                        <dict>
+                            <key>Stand you#</key>
+                            <dict>
+                                <key>Any more#</key>
+                                <string></string>
+                                <key>Any longer#</key>
+                                <string></string>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                            <key>Take it#</key>
+                            <dict>
+                                <key>Any more#</key>
+                                <string></string>
+                                <key>Any longer#</key>
+                                <string></string>
+                                <key>At all#</key>
+                                <string></string>
+                            </dict>
+                        </dict>
+                    </dict>
+                    <key>Have</key>
+                    <dict>
+                        <key>Had enough#</key>
+                        <string></string>
+                    </dict>
+                </dict>
+                <key>You</key>
+                <dict>
+                    <key>Are</key>
+                    <dict>
+                        <key>Nothing#</key>
+                        <dict>
+                            <key>To me#</key>
+                            <string></string>
+                        </dict>
+                    </dict>
+                </dict>
+                <key>We</key>
+                <dict>
+                    <key>Are</key>
+                    <dict>
+                        <key>Through#</key>
+                        <dict/>
+                        <key>Done#</key>
+                        <dict/>
+                    </dict>
+                </dict>
+                <key>Trigger</key>
+                <dict>
+                    <key>Apologize</key>
+                    <string></string>
+                </dict>
+                <key>80:10</key>
+                <string></string>
+                <key>60:5</key>
+                <string></string>
+            </dict>
+            <key>Criticism</key>
+            <dict>
+                <key>You</key>
+                <dict>
+                    <key>Hurt</key>
+                    <dict>
+                        <key>Me#</key>
+                        <dict>
+                            <key>By</key>
+                            <dict/>
+                            <key>In that way#</key>
+                            <string></string>
+                        </dict>
+                        <key>My feeling#</key>
+                        <string></string>
+                    </dict>
+                    <key>Do</key>
+                    <dict>
+                        <key>Hurt</key>
+                        <dict>
+                            <key>Me#</key>
+                            <dict>
+                                <key>By</key>
+                                <dict/>
+                                <key>In that way#</key>
+                                <string></string>
+                            </dict>
+                            <key>My feeling#</key>
+                            <string></string>
+                        </dict>
+                        <key>Cheat me#</key>
+                        <string></string>
+                        <key>Deceive me#</key>
+                        <string></string>
+                    </dict>
+                    <key>Make me feel#</key>
+                    <dict>
+                        <key>Like</key>
+                        <dict>
+                            <key>An idiot#</key>
+                            <string></string>
+                        </dict>
+                        <key>Sad#</key>
+                        <string></string>
+                        <key>Scared#</key>
+                        <string></string>
+                        <key>Angry#</key>
+                        <string></string>
+                        <key>Upset#</key>
+                        <string></string>
+                        <key>Lonely#</key>
+                        <string></string>
+                    </dict>
+                    <key>Are</key>
+                    <dict>
+                        <key>Terrible#</key>
+                        <string></string>
+                        <key>Disgusted#</key>
+                        <string></string>
+                        <key>Troublesome#</key>
+                        <string></string>
+                        <key>Naive#</key>
+                        <string></string>
+                        <key>Fickle#</key>
+                        <string></string>
+                    </dict>
+                    <key>Cheat me#</key>
+                    <string></string>
+                    <key>Deceive me#</key>
+                    <string></string>
+                    <key>Certainly</key>
+                    <string></string>
+                    <key>Really</key>
+                    <string></string>
+                </dict>
+            </dict>
+            <key>Key 1</key>
+            <string></string>
+            <key>Bad Languages</key>
+            <dict>
+                <key>Fuck#</key>
+                <dict>
+                    <key>You#</key>
+                    <string></string>
+                    <key>My life#</key>
+                    <string></string>
+                </dict>
+                <key>Go away#</key>
+                <string></string>
+                <key>Stay away#</key>
+                <dict>
+                    <key>From me#</key>
+                    <string></string>
+                </dict>
+                <key>Go to hell#</key>
+                <string></string>
+            </dict>
+        </dict>
+    </dict>
 </plist>
