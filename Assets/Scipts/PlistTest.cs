@@ -5,21 +5,54 @@ using PlistCS;
 
 public class PlistTest : MonoBehaviour {
 
+	Girl girl;
+	Boy boy;
+	List<string> fragments = new List<string>();
+	System.Random girlRandom;
+	System.Random boyRandom;
+
 	// Use this for initialization
 	void Start () {
 
 		TextAsset plistasset = Resources.Load<TextAsset>("ChainReaction");
 
-		Dictionary<string, object> dic2 = (Dictionary<string, object>)Plist.readPlist(plistasset.bytes);
-		Dictionary<string, object> girldic = (Dictionary<string, object>)dic2["Girl"];
-		Dictionary<string, object> santance1 = (Dictionary<string, object>)girldic["1"];
-		foreach (string key in santance1.Keys) {
-			Debug.Log(key+" is "+santance1[key].GetType());		
-		}
+		Dictionary<string, object> dic = (Dictionary<string, object>)Plist.readPlist(plistasset.bytes);
+
+		girl = new Girl (dic);
+		boy = new Boy (dic);
+
+		girlRandom = new System.Random ((int)System.DateTime.UtcNow.Ticks);
+		PickFragment (-1, null);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void PickFragment(int index, List<string> fragments)
+	{
+		if (index >= 0) {
+			girl.SelectFragment (fragments [index]);
+			Debug.Log ("Damage" + girl.Damage);
+		}
+
+		List<string> nextfragments = girl.GetNextFragment ();
+		foreach (string key in nextfragments) {
+			Debug.Log(key);		
+		}
+
+
+		if (nextfragments.Count > 0) 
+		{
+			//select next
+			int newindex = girlRandom.Next(0, nextfragments.Count);
+			PickFragment (newindex, nextfragments);
+				
+		} else {
+			Debug.Log ("Sentence finished");
+			Debug.Log(girl.Sentence);
+		}
 	}
 }

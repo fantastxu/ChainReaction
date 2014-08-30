@@ -12,7 +12,7 @@ public class Person
 	Dictionary<string, object> _sentecneDic = new Dictionary<string, object>();//sentence root collection from plist file 
 
 	Dictionary<string, object> _firstFragmentDic = new Dictionary<string, object>();//first fragment we can use, object is another Dictionary<string, object>, key format is 1-XX:XX
-	List<string> _sentenceLimit = new List<string>();
+	List<object> _sentenceLimit = new List<object>();
 	float _initDamage = 0.0f;
 	float _fragmentNum = 0.0f;
 	string _finalSentence = "";
@@ -27,6 +27,11 @@ public class Person
 			_negativePercent = 100;
 		else
 			_negativePercent = 0;
+	}
+
+	public string Sentence
+	{
+		get { return _finalSentence;}
 	}
 
 	public float Damage
@@ -60,24 +65,29 @@ public class Person
 			if(!_responsedSentences.Contains(keygroup) && _responsedSentences.Count>0)
 				continue;
 
+
 			_firstFragmentDic.Clear();
 			string firstkeystring = keygroup+"-";
 			Dictionary<string, object> firstdic = (Dictionary<string, object>)_sentecneDic[keygroup];
 			foreach(string percentkey in firstdic.Keys)
 			{
+
+				if(percentkey == "Trigger")
+					continue;
+
 				//split key into 2 string, first is percent
 				string[] percents = percentkey.Split(':');
 				float percentfloat = System.Convert.ToSingle(percents[0]);
 				if((IsNegative == true && percentfloat<= NegativeMotionPercent) ||
 				   (IsNegative == false && percentfloat <= PositiveMotionPercent))
 				{
-					firstkeystring += percentkey;
+					string secondkeystring = firstkeystring + percentkey;
 					//recored all subject key 
 					Dictionary<string, object> firstfragdic = (Dictionary<string, object>)firstdic[percentkey];
 					foreach(string subjectkey in firstfragdic.Keys)
 					{
-						string firstfragmentstring = subjectkey+"$"+firstkeystring;
-						_firstFragmentDic.Add(firstfragmentstring,(Dictionary<string, object>)firstfragdic[subjectkey]); 
+						string firstfragmentstring = subjectkey+"$"+secondkeystring;
+						_firstFragmentDic.Add(firstfragmentstring,firstfragdic[subjectkey]); 
 					}
 				}
 			}
@@ -125,7 +135,7 @@ public class Person
 				if(_sentecneDic.ContainsKey(kg2[0]))
 				{
 					Dictionary<string, object> numberdic = (Dictionary<string, object>)_sentecneDic[kg2[0]];
-					_sentenceLimit = (List<string>)numberdic["trigger"];
+					_sentenceLimit = (List<object>)numberdic["Trigger"];
 				}
 
 				//4.get damage
@@ -142,7 +152,18 @@ public class Person
 			Dictionary<string, object> dictemp = _sentenceStack.Peek();
 			if(dictemp.ContainsKey(key))
 			{
-				_sentenceStack.Push((Dictionary<string, object>)dictemp[key]);
+				Debug.Log(dictemp[key].GetType().ToString());
+				object newfragment = dictemp[key];
+				if(newfragment is System.String)
+				{
+					//last fragment
+					//push empty to stack
+					_sentenceStack.Push(new Dictionary<string, object>());
+
+				}
+				else
+					_sentenceStack.Push((Dictionary<string, object>)dictemp[key]);
+
 				_fragmentNum += 1.0f;
 				_finalSentence.Replace("#","");
 				_finalSentence += key;
@@ -169,12 +190,12 @@ public class Person
 			p.Heard (Damage, _sentenceLimit);
 	}
 
-	public void Heard(float damage, List<string> limit)
+	public void Heard(float damage, List<object> limit)
 	{
 		//interrupt current sentence making
 		_responsedSentences.Clear ();
-		foreach(string groupnum in limit)
-			_responsedSentences.Add(groupnum);
+		foreach(object groupnum in limit)
+			_responsedSentences.Add((string)groupnum);
 
 		_firstFragmentDic.Clear ();
 		_sentenceLimit.Clear ();
