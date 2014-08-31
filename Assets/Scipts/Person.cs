@@ -97,6 +97,7 @@ public class Person
 
 	public List<string> GetNextFragment()
 	{
+
 		List<string> fragments = new List<string> ();
 		if (_sentenceStack.Count == 0) {
 			//try to get first fragment
