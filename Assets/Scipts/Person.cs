@@ -118,6 +118,12 @@ public class Person
 		return fragments;
 	}
 
+	public void Reset()
+	{
+		ClearSentense ();
+		_responsedSentences.Clear ();
+	}
+
 	public bool SelectFragment(string key)
 	{
 		//key is keyfragment$1-XX:XX

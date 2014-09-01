@@ -19,6 +19,8 @@ public class ArgumentRoom : MonoBehaviour {
 	public Text girlText;
 	public Slider boySlider;
 	public Slider girlSlider;
+	List<RectTransform> boyrects = new List<RectTransform>();
+	List<RectTransform> girlrects = new List<RectTransform>();
 	// Use this for initialization
 	void Start () {
 
@@ -62,7 +64,10 @@ public class ArgumentRoom : MonoBehaviour {
 				girl.SpeakTo(boy);
 
 				foreach(GameObject obj in boyobjs)
+				{
 					Destroy(obj);
+					//boyobjs.Clear();
+				}
 
 				StartCoroutine (StartFromBeginning ());
 			}
@@ -78,7 +83,10 @@ public class ArgumentRoom : MonoBehaviour {
 				boy.SpeakTo(girl);
 
 				foreach(GameObject obj in girlobjs)
+				{
 					Destroy(obj);
+					//girlobjs.Clear();
+				}
 
 				StartCoroutine (StartFromBeginning ());
 			}
@@ -98,7 +106,8 @@ public class ArgumentRoom : MonoBehaviour {
 						Destroy (obj);
 
 		objs.Clear ();
-
+		float by = -Screen.height/3;
+		float gy = by;
 		foreach (string frag in fragments) {
 						
 			GameObject gobj = (GameObject)Instantiate (Resources.Load ("SentenceButton"));
@@ -130,7 +139,7 @@ public class ArgumentRoom : MonoBehaviour {
 			string[] finalwords = showwords[0].Split('$');
 			buttontext.text = finalwords[0];
 
-			Vector2 newrect = new Vector2(buttontext.preferredWidth+4, buttontext.preferredHeight+1);
+			Vector2 newrect = new Vector2(buttontext.preferredWidth*1.5f, buttontext.preferredHeight*1.5f);
 			if(newrect.x<20)
 				newrect.x = 20;
 
@@ -141,15 +150,19 @@ public class ArgumentRoom : MonoBehaviour {
 			//Debug.Log("Screen width:"+Screen.width);
 			float width = Screen.width*0.5f;
 			float height = Screen.height;
+
+
 			if(!girl)
 			{
-				Vector3 pos = new Vector3(Random.Range(-width/2.0f+newrect.x, 0.0f-newrect.x), Random.Range(-height/2.0f+newrect.y, height/2.0f-newrect.y), 0.0f);
+				Vector3 pos = new Vector3(Random.Range(-width/2.0f+newrect.x, 0.0f-newrect.x), Random.Range(-height/2.5f+newrect.y, height/2.5f-newrect.y), 0.0f);
 				button.gameObject.transform.localPosition = pos;
+				by += (newrect.y+2.0f);
 			}
 			else
 			{
-				Vector3 pos = new Vector3(Random.Range(0.0f+newrect.x, width/2.0f-newrect.x), Random.Range(-height/2.0f+newrect.y, height/2.0f-newrect.y), 0.0f);
+				Vector3 pos = new Vector3(Random.Range(0.0f+newrect.x, width/2.0f-newrect.x), Random.Range(-height/2.5f+newrect.y, height/2.5f-newrect.y), 0.0f);
 				button.gameObject.transform.localPosition = pos;
+				gy += newrect.y+2.0f;
 			}
 
 		}
@@ -159,6 +172,36 @@ public class ArgumentRoom : MonoBehaviour {
 
 	bool AABBTest(Rect rect1, Rect rect2)
 	{
+		float disx = Mathf.Abs(rect1.center.x - rect2.center.x);
+		float disy = Mathf.Abs (rect1.center.y - rect2.center.y);
+
+		float width = rect1.width + rect2.width;
+		float height = rect1.height + rect2.height;
+
+		if (disx <= width && disy <= height)
+			return true;
+
+
 		return false;
+	}
+
+	public void Reset()
+	{
+		boy.Reset ();
+		girl.Reset ();
+
+		foreach(GameObject obj in boyobjs)
+		{
+			Destroy(obj);
+			//boyobjs.Clear();
+		}
+
+		foreach(GameObject obj in girlobjs)
+		{
+			Destroy(obj);
+			//girlobjs.Clear();
+		}
+
+		StartCoroutine (StartFromBeginning ());
 	}
 }
