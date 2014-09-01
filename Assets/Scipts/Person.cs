@@ -122,6 +122,16 @@ public class Person
 		_responsedSentences.Clear ();
 	}
 
+	void ClearSentense()
+	{
+		_firstFragmentDic.Clear ();
+		_sentenceLimit.Clear ();
+		_sentenceStack.Clear ();
+		_initDamage = 0.0f;
+		_fragmentNum = 0.0f;
+		_finalSentence = "";
+	}
+
 	public bool SelectFragment(string key)
 	{
 		//key is keyfragment$1-XX:XX
