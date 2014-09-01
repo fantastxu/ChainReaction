@@ -60,15 +60,13 @@ public class Person
 		if (_sentecneDic == null)
 			return;
 
-		_firstFragmentDic.Clear();
-
 		foreach (string keygroup in _sentecneDic.Keys) {
 			//check if we have _responsedSentences limit, we can only select sentences from _responsedSentences hashtable
 			if(!_responsedSentences.Contains(keygroup) && _responsedSentences.Count>0)
 				continue;
 
 
-
+			_firstFragmentDic.Clear();
 			string firstkeystring = keygroup+"-";
 			Dictionary<string, object> firstdic = (Dictionary<string, object>)_sentecneDic[keygroup];
 			foreach(string percentkey in firstdic.Keys)
@@ -152,14 +150,8 @@ public class Person
 				_initDamage =  System.Convert.ToSingle(kg3[1]);
 				_fragmentNum = 1.0f;
 
-				object objtemp = _firstFragmentDic[key];
-				if(objtemp is System.String)
-					_sentenceStack.Push(new Dictionary<string, object>());
-				else
-				{
-					Dictionary<string, object> selectdic = (Dictionary<string, object>)objtemp;
-					_sentenceStack.Push(selectdic);
-				}
+				Dictionary<string, object> selectdic = (Dictionary<string, object>)_firstFragmentDic[key];
+				_sentenceStack.Push(selectdic);
 				return true;
 			}
 		}
@@ -204,20 +196,7 @@ public class Person
 	{
 		if (p != this)
 			p.Heard (Damage, _sentenceLimit);
-
-		ClearSentense ();
 	}
-
-	void ClearSentense()
-	{
-		_firstFragmentDic.Clear ();
-		_sentenceLimit.Clear ();
-		_sentenceStack.Clear ();
-		_initDamage = 0.0f;
-		_fragmentNum = 0.0f;
-		_finalSentence = "";
-	}
-
 
 	public void Heard(float damage, List<object> limit)
 	{
@@ -226,14 +205,19 @@ public class Person
 		foreach(object groupnum in limit)
 			_responsedSentences.Add((string)groupnum);
 
-		ClearSentense ();
+		_firstFragmentDic.Clear ();
+		_sentenceLimit.Clear ();
+		_sentenceStack.Clear ();
+		_initDamage = 0.0f;
+		_fragmentNum = 0.0f;
+		_finalSentence = "";
 
 		if (_isNegative) {
-			_negativePercent -= damage*0.1f;		
+			_negativePercent -= damage;		
 		}
 		else
 		{
-			_negativePercent += damage*0.1f;
+			_negativePercent += damage;
 		}
 
 
